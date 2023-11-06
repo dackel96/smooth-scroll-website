@@ -2,7 +2,8 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './App.css';
-import Navbar from './components/Navbar';
+
+import Home from './pages';
 
 function App() {
   const path = createBrowserRouter([
@@ -10,7 +11,7 @@ function App() {
       path: '/',
       element: (
         <>
-          <Navbar />
+          <Home />
         </>
       ),
     },
