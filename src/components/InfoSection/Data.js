@@ -38,9 +38,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: 'signup',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Premium Bank',
   headline: 'Unlimited Transactions with zero fees',
   description:
@@ -49,8 +49,8 @@ export const homeObjThree = {
   imgStart: true,
   img: require('../../images/svg-2.svg').default,
   alt: 'bisnis',
-  dark: true,
-  dark2: true,
-  primary: true,
-  darkText: false,
+  dark: false,
+  dark2: false,
+  primary: false,
+  darkText: true,
 };
