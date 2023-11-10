@@ -18,9 +18,9 @@ import {
   FaFacebook,
   FaInstagram,
   FaLinkedin,
-  FaTwitter,
+  FaXTwitter,
   FaYoutube,
-} from 'react-icons/fa';
+} from 'react-icons/fa6';
 
 function Footer() {
   return (
@@ -83,7 +83,7 @@ function Footer() {
                   <FaYoutube />
                 </SocialIconLink>
                 <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                  <FaTwitter />
+                  <FaXTwitter />
                 </SocialIconLink>
                 <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
                   <FaLinkedin />
